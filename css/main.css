@@ -1,7 +1,20 @@
-body {font-family: 'Poppins', sans-serif;}
+body {
+    font-family: 'Poppins', sans-serif;
+}
+
 .container-fluid {
     padding-left: 0;
     padding-right: 0;
+}
+
+h1, h4 {
+    font-weight: bold;
+}
+
+h1 {
+    font-size: 46px;
+    margin-bottom: 20px;
+    margin-top: 80px;
 }
 
 .pocetak {
@@ -16,38 +29,49 @@ body {font-family: 'Poppins', sans-serif;}
 .bg-dark {
     background-color: transparent !important;
 }
-/*.navbar-collapse {
-    font-size: 1.25em;
-}*/
-.navbar-collapse .btn {
+
+.navbar-collapse .btn, .part1 .btn {
     background-color: #fff;
     border-radius: 38px;
-}
-.navbar-collapse .btn .log {
-    color: #29E4B7;
-}
-.navbar-collapse .btn .reg {
-    color: #202646;
-}
-.navbar-collapse .btn {
     padding: 15px 30px;
     font-size: 20px;
 }
 
+.navbar-collapse .btn .log {
+    color: #29E4B7;
+}
+
+.navbar-collapse .btn .reg, .part1 .btn {
+    color: #202646;
+}
+
+.part1 {
+    margin-top: 40px;
+    color: #fff;
+}
+
 @media (min-width: 768px) {
-    .navbar-dark .navbar-nav .nav-link {        
+    .navbar-dark .navbar-nav .nav-link {
         width: 95px;
         text-align: center;
         color: #fff;
         opacity: 1;
-        
-   }
-   .navbar-dark .navbar-nav .nav-link:hover {
-       font-weight: bold;
-       color: #fff;
-       transition: 0.3s all;
-   }
-
+    }
+    .navbar-dark .navbar-nav .nav-link:hover {
+        font-weight: bold;
+        color: #fff;
+        transition: 0.3s all;
+    }
 }
 
-.mobilni-telefon{ display: inline-block; border-radius: 60px; box-shadow: 0 0 60px 40px rgba(180,180,180,.3); background-color: #fff;}
+.mobilni-telefon {
+    display: inline-block;
+    border-radius: 60px;
+    box-shadow: 0 0 60px 40px rgba(180, 180, 180, .3);
+    background-color: #fff;
+}
+
+.part1 span img {
+    display: inline-block;
+    vertical-align: middle;
+}
