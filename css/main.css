@@ -71,7 +71,11 @@ h1 {
     background-color: #fff;
 }
 
-.part1 span img {
-    display: inline-block;
-    vertical-align: middle;
+.about {
+    padding: 40px 0;
+}
+
+.ab-ap {
+    padding: 20px 10px;
+    box-shadow: 0 0 60px 40px rgba(180, 180, 180, .3);
 }
