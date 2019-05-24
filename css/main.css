@@ -91,7 +91,6 @@ footer {
     margin-left: auto;
     margin-right: auto;
     position: relative;
-    overflow: hidden;
     border-radius: 6px;
     -webkit-transform: rotate(45deg);
     transform: rotate(45deg);
@@ -102,26 +101,7 @@ footer {
     background: #29E4B7;
 }
 
-.ab-img:before {
-    content: "";
-    position: absolute;
-    width: 200%;
-    height: 200%;
-    top: -50%;
-    left: -50%;
-    z-index: -1;
-}
-
-.img-ap {
-    position: relative;
-}
-
 .img-ap img {
-    position: absolute;
-    top: -100px;
-    margin-left: -30px;
-    height: 60px;
-    width: 60px;
-    overflow: visible;
-    z-index: 100;
+    -webkit-transform: rotate(-45deg);
+    transform: rotate(-45deg);
 }
