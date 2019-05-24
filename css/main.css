@@ -50,6 +50,10 @@ h1 {
     color: #fff;
 }
 
+footer {
+    background-color: #202646;
+}
+
 @media (min-width: 768px) {
     .navbar-dark .navbar-nav .nav-link {
         width: 95px;
@@ -76,6 +80,48 @@ h1 {
 }
 
 .ab-ap {
-    padding: 20px 10px;
+    padding: 40px 20px;
     box-shadow: 0 0 60px 40px rgba(180, 180, 180, .3);
+}
+
+.ab-img {
+    width: 60px;
+    height: 60px;
+    margin-bottom: 40px;
+    margin-left: auto;
+    margin-right: auto;
+    position: relative;
+    overflow: hidden;
+    border-radius: 6px;
+    -webkit-transform: rotate(45deg);
+    transform: rotate(45deg);
+    background: #F3F5F8;
+}
+
+.ab-img:hover {
+    background: #29E4B7;
+}
+
+.ab-img:before {
+    content: "";
+    position: absolute;
+    width: 200%;
+    height: 200%;
+    top: -50%;
+    left: -50%;
+    z-index: -1;
+}
+
+.img-ap {
+    position: relative;
+}
+
+.img-ap img {
+    position: absolute;
+    top: -100px;
+    margin-left: -30px;
+    height: 60px;
+    width: 60px;
+    overflow: visible;
+    z-index: 100;
 }
