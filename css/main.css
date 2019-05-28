@@ -19,7 +19,6 @@ h1 {
 
 .pocetak {
     padding-top: 30px;
-    background-color: #fff;
     background-image: url("../img/krugovi2.svg");
     background-repeat: no-repeat;
     background-position: right bottom;
@@ -31,7 +30,6 @@ h1 {
 }
 
 .navbar-collapse .btn, .part1 .btn {
-    background-color: #fff;
     border-radius: 38px;
     padding: 15px 30px;
     font-size: 20px;
@@ -61,7 +59,6 @@ footer, .talk {
     display: inline-block;
     border-radius: 60px;
     box-shadow: 0 0 60px 40px rgba(180, 180, 180, .3);
-    background-color: #fff;
 }
 
 .dug {
@@ -78,11 +75,11 @@ footer, .talk {
     padding: 0px 30px 5px 70px;
 }
 
-.about, .features .container-fluid, .pricing, .moj-carousel, .talk {
+.about, .features .container-fluid, .pricing, .moj-carousel, .talk , .contact , footer{
     padding: 100px 0;
 }
 
-.about-text {
+.about-text , .location{
     padding: 20px;
 }
 
@@ -109,7 +106,7 @@ footer, .talk {
     background: #F3F5F8;
 }
 
-.ab-img:hover {
+.ab-ap:hover .ab-img {
     background: #29E4B7;
 }
 
@@ -128,7 +125,6 @@ footer, .talk {
 }
 
 .feature-img {
-    background-color: #fff;
     border-radius: 50%;
     padding: 18px;
     width: 81px;
@@ -141,7 +137,7 @@ footer, .talk {
     vertical-align: middle;
 }
 
-.pricing {
+.pricing , .contact{
     background-color: #F8F6F6;
 }
 
@@ -162,7 +158,7 @@ footer, .talk {
     transition: all 0.2s;
 }
 
-.card:hover .card-body h5, .card:hover h6 {
+.card:hover .card-body h5, .card:hover h6 , footer , .fab{
     color: #fff;
 }
 
@@ -193,7 +189,6 @@ footer, .talk {
 .card-body .btn:hover, .card:hover .card-body .btn {
     border: 3px solid transparent;
     color: #29E4B7;
-    background-color: #fff;
     opacity: 1;
 }
 
@@ -209,6 +204,7 @@ footer, .talk {
 
 .talk-box img {
     margin-top: -60px;
+    border-radius: 50%;
 }
 
 .talk-box h6 {
@@ -225,6 +221,47 @@ footer, .talk {
     height: 15px;
     margin-left: 5px;
 }
+.line {
+width: 100%;
+max-width: 7rem;
+height: .25rem;
+margin-left: auto;
+margin-right: auto;
+background-color: #202646;
+border-radius: 1rem;
+border-color: #202646;
+}
+.map {
+    width: 100%;
+    height: 100%;
+    min-height: 300px;
+    border: 0;
+    position: relative;
+    -webkit-filter: grayscale(100%);
+    -moz-filter: grayscale(100%);
+     -ms-filter: grayscale(100%);
+      -o-filter: grayscale(100%);
+         filter: grayscale(100%);
+}
+.btn-primary {background-color: #29E4B7;border: 1px solid #29E4B7;}
+.btn-primary , .btn-primary:hover, .btn-primary:active , .btn-primary:focus{border-radius: 0;}
+.btn-primary:hover , .btn-primary:active , .btn-primary:focus{background-color: #18B791;border: 1px solid #18B791;}
+.location , .pocetak , .navbar-collapse .btn, .part1 .btn , .mobilni-telefon , .feature-img , .card-body .btn:hover, .card:hover .card-body .btn{background-color: #fff;}
+.quest {
+    display: inline-block;
+    border: 2px solid #202646;
+    width: 20px;
+    height: 20px;
+    line-height: 20px;
+    vertical-align: text-top;
+}
+.form-control {
+    border: 1px transparent;
+}
+.left-car {width: 50px; height: 50px; border-radius: 50%; background-color: #29E4B7; display: inline-block; margin-right: 10px;
+    background-image: url(../img/left.png); background-repeat: no-repeat; background-position: 50% 50%; box-shadow: 5px 5px 10px 3px rgba(100,100,100,.2)}
+.right-car {width: 50px; height: 50px; border-radius: 50%; background-color: #29E4B7; display: inline-block; margin-left: 10px;
+        background-image: url(../img/right.png); background-repeat: no-repeat; background-position: 50% 50%; box-shadow: 5px 5px 10px 3px rgba(100,100,100,.2)}    
 
 @media (max-width: 767px) {
     .ab-ap {
