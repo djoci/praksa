@@ -49,11 +49,11 @@ h1 {
     margin-top: 40px;
 }
 
-.part1, .features {
+.part1, .features, .talk {
     color: #fff;
 }
 
-footer {
+footer, .talk {
     background-color: #202646;
 }
 
@@ -63,19 +63,23 @@ footer {
     box-shadow: 0 0 60px 40px rgba(180, 180, 180, .3);
     background-color: #fff;
 }
+
 .dug {
     background: url("../img/play-store.png") no-repeat;
     background-position: 30px center;
 }
+
 .jab {
     background: url("../img/app-store.png") no-repeat;
     background-position: 30px center;
 }
+
 .part1 .btn {
     padding: 0px 30px 5px 70px;
 }
-.about, .features .container-fluid, .pricing {
-    padding: 40px 0;
+
+.about, .features .container-fluid, .pricing, .moj-carousel, .talk {
+    padding: 100px 0;
 }
 
 .about-text {
@@ -130,11 +134,13 @@ footer {
     width: 81px;
     height: 81px;
 }
+
 .feature-img img {
     width: 44px;
     height: 44px;
     vertical-align: middle;
 }
+
 .pricing {
     background-color: #F8F6F6;
 }
@@ -144,19 +150,22 @@ footer {
     border-radius: 1rem;
     box-shadow: 0 0.5rem 1rem 0 rgba(0, 0, 0, 0.1);
 }
+
 .card:hover {
     border-radius: 0;
     box-shadow: 0 0 0 15px #202646;
-     
 }
-.card:hover , .card:hover .list-group-item {
+
+.card:hover, .card:hover .list-group-item {
     background-color: #202646;
     color: #fff;
     transition: all 0.2s;
 }
-.card:hover .card-body h5 , .card:hover h6 {
+
+.card:hover .card-body h5, .card:hover h6 {
     color: #fff;
 }
+
 .card-price {
     font-size: 3rem;
     margin: 0;
@@ -181,15 +190,42 @@ footer {
     transition: all 0.2s;
 }
 
-.card-body .btn:hover , .card:hover .card-body .btn {
+.card-body .btn:hover, .card:hover .card-body .btn {
     border: 3px solid transparent;
     color: #29E4B7;
     background-color: #fff;
     opacity: 1;
 }
+
 .card-body h6 {
     margin: 20px 0;
 }
+
+.talk-box {
+    border: 1px solid #fff;
+    margin-top: 100px;
+    padding: 0 40px 40px 40px;
+}
+
+.talk-box img {
+    margin-top: -60px;
+}
+
+.talk-box h6 {
+    margin-top: 20px;
+}
+
+.talk .carousel-indicators {
+    bottom: -100px
+}
+
+.talk .carousel-indicators li {
+    border-radius: 50%;
+    width: 15px;
+    height: 15px;
+    margin-left: 5px;
+}
+
 @media (max-width: 767px) {
     .ab-ap {
         margin-bottom: 20px;
@@ -215,4 +251,3 @@ footer {
         padding: 40px;
     }
 }
-
