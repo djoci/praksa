@@ -75,11 +75,11 @@ footer, .talk {
     padding: 0px 30px 5px 70px;
 }
 
-.about, .features .container-fluid, .pricing, .moj-carousel, .talk , .contact , footer{
+.about, .features .container-fluid, .pricing, .moj-carousel, .talk, .contact, footer {
     padding: 100px 0;
 }
 
-.about-text , .location{
+.about-text, .location {
     padding: 20px;
 }
 
@@ -137,7 +137,7 @@ footer, .talk {
     vertical-align: middle;
 }
 
-.pricing , .contact{
+.pricing, .contact {
     background-color: #F8F6F6;
 }
 
@@ -158,7 +158,7 @@ footer, .talk {
     transition: all 0.2s;
 }
 
-.card:hover .card-body h5, .card:hover h6 , footer , .fab{
+.card:hover .card-body h5, .card:hover h6, footer, .fab {
     color: #fff;
 }
 
@@ -221,16 +221,18 @@ footer, .talk {
     height: 15px;
     margin-left: 5px;
 }
+
 .line {
-width: 100%;
-max-width: 7rem;
-height: .25rem;
-margin-left: auto;
-margin-right: auto;
-background-color: #202646;
-border-radius: 1rem;
-border-color: #202646;
+    width: 100%;
+    max-width: 7rem;
+    height: .25rem;
+    margin-left: auto;
+    margin-right: auto;
+    background-color: #202646;
+    border-radius: 1rem;
+    border-color: #202646;
 }
+
 .map {
     width: 100%;
     height: 100%;
@@ -239,14 +241,29 @@ border-color: #202646;
     position: relative;
     -webkit-filter: grayscale(100%);
     -moz-filter: grayscale(100%);
-     -ms-filter: grayscale(100%);
-      -o-filter: grayscale(100%);
-         filter: grayscale(100%);
+    -ms-filter: grayscale(100%);
+    -o-filter: grayscale(100%);
+    filter: grayscale(100%);
 }
-.btn-primary {background-color: #29E4B7;border: 1px solid #29E4B7;}
-.btn-primary , .btn-primary:hover, .btn-primary:active , .btn-primary:focus{border-radius: 0;}
-.btn-primary:hover , .btn-primary:active , .btn-primary:focus{background-color: #18B791;border: 1px solid #18B791;}
-.location , .pocetak , .navbar-collapse .btn, .part1 .btn , .mobilni-telefon , .feature-img , .card-body .btn:hover, .card:hover .card-body .btn{background-color: #fff;}
+
+.btn-primary {
+    background-color: #29E4B7;
+    border: 1px solid #29E4B7;
+}
+
+.btn-primary, .btn-primary:hover, .btn-primary:active, .btn-primary:focus {
+    border-radius: 0;
+}
+
+.btn-primary:hover, .btn-primary:active, .btn-primary:focus {
+    background-color: #18B791;
+    border: 1px solid #18B791;
+}
+
+.location, .pocetak, .navbar-collapse .btn, .part1 .btn, .mobilni-telefon, .feature-img, .card-body .btn:hover, .card:hover .card-body .btn {
+    background-color: #fff;
+}
+
 .quest {
     display: inline-block;
     border: 2px solid #202646;
@@ -255,17 +272,48 @@ border-color: #202646;
     line-height: 20px;
     vertical-align: text-top;
 }
+
 .form-control {
     border: 1px transparent;
 }
-.left-car {width: 50px; height: 50px; border-radius: 50%; background-color: #29E4B7; display: inline-block; margin-right: 10px;
-    background-image: url(../img/left.png); background-repeat: no-repeat; background-position: 50% 50%; box-shadow: 5px 5px 10px 3px rgba(100,100,100,.2)}
-.right-car {width: 50px; height: 50px; border-radius: 50%; background-color: #29E4B7; display: inline-block; margin-left: 10px;
-        background-image: url(../img/right.png); background-repeat: no-repeat; background-position: 50% 50%; box-shadow: 5px 5px 10px 3px rgba(100,100,100,.2)}    
+
+.car {
+    width: 50px;
+    height: 50px;
+    border-radius: 50%;
+    background-color: #29E4B7;
+    display: inline-block;
+    background-repeat: no-repeat;
+    background-position: 50% 50%;
+    box-shadow: 5px 5px 10px 3px rgba(100, 100, 100, .2)
+}
+
+.left-car {
+    margin-right: 10px;
+    background-image: url(../img/left.png);
+}
+
+.right-car {
+    margin-left: 10px;
+    background-image: url(../img/right.png);
+}
+
+.form-group textarea {
+    min-height: 125px;
+}
 
 @media (max-width: 767px) {
     .ab-ap {
         margin-bottom: 20px;
+    }
+    .form-group:nth-child(1) {
+        margin-top: 1rem;
+    }
+    .about {
+        padding: 50px 0;
+    }
+    .pocetak {
+        padding-bottom: 200px;
     }
 }
 
@@ -280,6 +328,33 @@ border-color: #202646;
         font-weight: bold;
         color: #fff;
         transition: 0.3s all;
+    }
+}
+
+@media (max-width: 991px) {
+    body {
+        font-size: 0.9rem
+    }
+    h1 {
+        font-size: 35px
+    }
+    .lead {
+        font-size: 1.125rem
+    }
+    .part1 .btn {
+        font-size: 1em;
+    }
+    .dug, .jab {
+        background-size: 20px 20px;
+    }
+    .h4, h4 {
+        font-size: 1.25rem;
+    }
+    .features .container-fluid {
+        background-position: center 10px;
+    }
+    .navbar-dark .navbar-nav .nav-link {
+        text-align: left;
     }
 }
 
