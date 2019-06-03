@@ -2,7 +2,7 @@
 <html lang="en">
 
 <head>
-    <title>Prak</title>
+    <title>DEMO | Praksa Zorica Mitrović</title>
     <!-- Required meta tags -->
     <meta charset="utf-8">
     <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
@@ -13,9 +13,14 @@
     <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/css/bootstrap.min.css"
         integrity="sha384-ggOyR0iXCbMQv3Xipma34MD+dH/1fQ784/j6cY/iJTQUOhcWr7x9JvoRxT2MZw1T" crossorigin="anonymous">
     <link rel="stylesheet" href="css/main.css">
+    <style>
+        html {
+  scroll-behavior: smooth;
+}
+    </style>
 </head>
 
-<body>
+<body id="home">
     <section class="pocetak">
         <div class="container-fluid">
 
@@ -31,26 +36,26 @@
                     <div class="collapse navbar-collapse" id="navbarsExampleDefault">
                         <ul class="navbar-nav mr-auto">
                             <li class="nav-item active">
-                                <a class="nav-link" href="#">Home <span class="sr-only">(current)</span></a>
+                                <a class="nav-link" href="#home">Home <span class="sr-only">(current)</span></a>
                             </li>
                             <li class="nav-item">
-                                <a class="nav-link" href="#">About</a>
+                                <a class="nav-link" href="#about">About</a>
                             </li>
                             <li class="nav-item">
-                                <a class="nav-link" href="#">Features</a>
+                                <a class="nav-link" href="#features">Features</a>
                             </li>
                             <li class="nav-item">
-                                <a class="nav-link" href="#">Pricing</a>
+                                <a class="nav-link" href="#pricing">Pricing</a>
                             </li>
                             <li class="nav-item">
-                                <a class="nav-link" href="#">Screeshot</a>
+                                <a class="nav-link" href="#screenshot">Screeshot</a>
                             </li>
                             <li class="nav-item">
-                                <a class="nav-link" href="#">Contact</a>
+                                <a class="nav-link" href="#contact">Contact</a>
                             </li>
                         </ul>
-                        <a href="#" class="btn my-2 my-sm-0"><span class="log">Login</span><span class="reg"> or
-                                Register</span></a>
+                        <div class="btn my-2 my-sm-0"><a href="login.html" class="log">Login</a>  &nbsp;<a href="register.html" class="reg">or
+                                Register</a> </div>
                     </div>
                 </div>
             </nav>
@@ -80,7 +85,7 @@
         </div>
     </section>
 
-    <section class="about text-center">
+    <section class="about text-center" id="about">
         <div class="container">
             <h2>About The App</h2>
             <div class="about-text">
@@ -138,7 +143,7 @@
             </div>
         </div>
     </section>
-    <section class="features text-center">
+    <section class="features text-center" id="features">
         <div class="container-fluid">
             <div class="container">
                 <h2>Features The App</h2>
@@ -220,7 +225,7 @@
             </div>
         </div>
     </section>
-    <section class="pricig">
+    <section class="pricig" id="pricing">
         <div class="container text-center">
             <h2>
                 Pricing Plan
@@ -289,7 +294,7 @@
             </div>
         </div>
     </section>
-    <section class="moj-carousel">
+    <section class="moj-carousel" id="screenshot">
         <div class="container text-center">
             <h2>
                 App Screenshots
@@ -465,7 +470,7 @@
             <!-- end of carousel -->
         </div>
     </section>
-    <section class="contact">
+    <section class="contact" id="contact">
         <div class="container text-center">
             <h2>
                 Say Hello To Us!
@@ -578,6 +583,8 @@
     <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/js/bootstrap.min.js"
         integrity="sha384-JjSmVgyd0p3pXB1rRibZUAYoIIy6OrQ6VrjIEaFf/nJGzIxFDsf4x0xIM+B07jRM"
         crossorigin="anonymous"></script>
+        
+        
 </body>
 
 </html>

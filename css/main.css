@@ -29,9 +29,9 @@ h1 {
     background-color: transparent !important;
 }
 
-.navbar-collapse .btn, .part1 .btn {
+.navbar-collapse .btn, .part1 .btn , .upload-btn {
     border-radius: 38px;
-    padding: 15px 30px;
+    padding: 10px 30px;
     font-size: 20px;
 }
 
@@ -314,6 +314,9 @@ footer, .talk {
     }
     .pocetak {
         padding-bottom: 200px;
+    }
+    .features .container-fluid {
+        background: #202646;
     }
 }
 
