@@ -1,0 +1,368 @@
+body {
+    font-family: 'Poppins', sans-serif;
+}
+
+.container-fluid {
+    padding-left: 0;
+    padding-right: 0;
+}
+
+h1, h4 {
+    font-weight: bold;
+}
+
+h1 {
+    font-size: 46px;
+    margin-bottom: 20px;
+    margin-top: 80px;
+}
+
+.pocetak {
+    padding-top: 30px;
+    background-image: url("../img/krugovi2.svg");
+    background-repeat: no-repeat;
+    background-position: right bottom;
+    background-size: 100% auto;
+}
+
+.bg-dark {
+    background-color: transparent !important;
+}
+
+.navbar-collapse .btn, .part1 .btn , .upload-btn {
+    border-radius: 38px;
+    padding: 10px 30px;
+    font-size: 20px;
+}
+
+.navbar-collapse .btn .log {
+    color: #29E4B7;
+}
+
+.navbar-collapse .btn .reg, .part1 .btn {
+    color: #202646;
+}
+
+.part1 {
+    margin-top: 40px;
+}
+
+.part1, .features, .talk {
+    color: #fff;
+}
+
+footer, .talk {
+    background-color: #202646;
+}
+
+.mobilni-telefon {
+    display: inline-block;
+    border-radius: 60px;
+    box-shadow: 0 0 60px 40px rgba(180, 180, 180, .3);
+}
+
+.dug {
+    background: url("../img/play-store.png") no-repeat;
+    background-position: 30px center;
+}
+
+.jab {
+    background: url("../img/app-store.png") no-repeat;
+    background-position: 30px center;
+}
+
+.part1 .btn {
+    padding: 0px 30px 5px 70px;
+}
+
+.about, .features .container-fluid, .pricing, .moj-carousel, .talk, .contact, footer {
+    padding: 100px 0;
+}
+
+.about-text, .location {
+    padding: 20px;
+}
+
+.ab-ap {
+    padding: 60px 20px 40px 20px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.3);
+}
+
+.ab-ap h3 {
+    margin-bottom: 40px;
+}
+
+.ab-img {
+    width: 60px;
+    height: 60px;
+    margin-bottom: 40px;
+    margin-left: auto;
+    margin-right: auto;
+    position: relative;
+    border-radius: 6px;
+    -webkit-transform: rotate(45deg);
+    transform: rotate(45deg);
+    transition: .35s ease-in-out;
+    background: #F3F5F8;
+}
+
+.ab-ap:hover .ab-img {
+    background: #29E4B7;
+}
+
+.img-ap img {
+    -webkit-transform: rotate(-45deg);
+    transform: rotate(-45deg);
+}
+
+.features {
+    padding-bottom: 100px;
+}
+
+.features .container-fluid {
+    background: url("../img/Shape.svg") no-repeat;
+    background-size: 100% 100%;
+}
+
+.feature-img {
+    border-radius: 50%;
+    padding: 18px;
+    width: 81px;
+    height: 81px;
+}
+
+.feature-img img {
+    width: 44px;
+    height: 44px;
+    vertical-align: middle;
+}
+
+.pricing, .contact {
+    background-color: #F8F6F6;
+}
+
+.card {
+    border: 3px solid #202646;
+    border-radius: 1rem;
+    box-shadow: 0 0.5rem 1rem 0 rgba(0, 0, 0, 0.1);
+}
+
+.card:hover {
+    border-radius: 0;
+    box-shadow: 0 0 0 15px #202646;
+}
+
+.card:hover, .card:hover .list-group-item {
+    background-color: #202646;
+    color: #fff;
+    transition: all 0.2s;
+}
+
+.card:hover .card-body h5, .card:hover h6, footer, .fab {
+    color: #fff;
+}
+
+.card-price {
+    font-size: 3rem;
+    margin: 0;
+}
+
+.card .list-group-item {
+    border: 0px;
+    padding: .25rem;
+    color: #808080;
+    font-weight: 300;
+}
+
+.card-body .btn {
+    border: 3px solid #202646;
+    width: 80%;
+    font-size: 80%;
+    border-radius: 5rem;
+    letter-spacing: .1rem;
+    font-weight: bold;
+    padding: 1rem;
+    opacity: 0.7;
+    transition: all 0.2s;
+}
+
+.card-body .btn:hover, .card:hover .card-body .btn {
+    border: 3px solid transparent;
+    color: #29E4B7;
+    opacity: 1;
+}
+
+.card-body h6 {
+    margin: 20px 0;
+}
+
+.talk-box {
+    border: 1px solid #fff;
+    margin-top: 100px;
+    padding: 0 40px 40px 40px;
+}
+
+.talk-box img {
+    margin-top: -60px;
+    border-radius: 50%;
+}
+
+.talk-box h6 {
+    margin-top: 20px;
+}
+
+.talk .carousel-indicators {
+    bottom: -100px
+}
+
+.talk .carousel-indicators li {
+    border-radius: 50%;
+    width: 15px;
+    height: 15px;
+    margin-left: 5px;
+}
+
+.line {
+    width: 100%;
+    max-width: 7rem;
+    height: .25rem;
+    margin-left: auto;
+    margin-right: auto;
+    background-color: #202646;
+    border-radius: 1rem;
+    border-color: #202646;
+}
+
+.map {
+    width: 100%;
+    height: 100%;
+    min-height: 300px;
+    border: 0;
+    position: relative;
+    -webkit-filter: grayscale(100%);
+    -moz-filter: grayscale(100%);
+    -ms-filter: grayscale(100%);
+    -o-filter: grayscale(100%);
+    filter: grayscale(100%);
+}
+
+.btn-primary {
+    background-color: #29E4B7;
+    border: 1px solid #29E4B7;
+}
+
+.btn-primary, .btn-primary:hover, .btn-primary:active, .btn-primary:focus {
+    border-radius: 0;
+}
+
+.btn-primary:hover, .btn-primary:active, .btn-primary:focus {
+    background-color: #18B791;
+    border: 1px solid #18B791;
+}
+
+.location, .pocetak, .navbar-collapse .btn, .part1 .btn, .mobilni-telefon, .feature-img, .card-body .btn:hover, .card:hover .card-body .btn {
+    background-color: #fff;
+}
+
+.quest {
+    display: inline-block;
+    border: 2px solid #202646;
+    width: 20px;
+    height: 20px;
+    line-height: 20px;
+    vertical-align: text-top;
+}
+
+.form-control {
+    border: 1px transparent;
+}
+
+.car {
+    width: 50px;
+    height: 50px;
+    border-radius: 50%;
+    background-color: #29E4B7;
+    display: inline-block;
+    background-repeat: no-repeat;
+    background-position: 50% 50%;
+    box-shadow: 5px 5px 10px 3px rgba(100, 100, 100, .2)
+}
+
+.left-car {
+    margin-right: 10px;
+    background-image: url(../img/left.png);
+}
+
+.right-car {
+    margin-left: 10px;
+    background-image: url(../img/right.png);
+}
+
+.form-group textarea {
+    min-height: 125px;
+}
+
+@media (max-width: 767px) {
+    .ab-ap {
+        margin-bottom: 20px;
+    }
+    .form-group:nth-child(1) {
+        margin-top: 1rem;
+    }
+    .about {
+        padding: 50px 0;
+    }
+    .pocetak {
+        padding-bottom: 200px;
+    }
+    .features .container-fluid {
+        background: #202646;
+    }
+}
+
+@media (min-width: 768px) {
+    .navbar-dark .navbar-nav .nav-link {
+        width: 95px;
+        text-align: center;
+        color: #fff;
+        opacity: 1;
+    }
+    .navbar-dark .navbar-nav .nav-link:hover {
+        font-weight: bold;
+        color: #fff;
+        transition: 0.3s all;
+    }
+}
+
+@media (max-width: 991px) {
+    body {
+        font-size: 0.9rem
+    }
+    h1 {
+        font-size: 35px
+    }
+    .lead {
+        font-size: 1.125rem
+    }
+    .part1 .btn {
+        font-size: 1em;
+    }
+    .dug, .jab {
+        background-size: 20px 20px;
+    }
+    .h4, h4 {
+        font-size: 1.25rem;
+    }
+    .features .container-fluid {
+        background-position: center 10px;
+    }
+    .navbar-dark .navbar-nav .nav-link {
+        text-align: left;
+    }
+}
+
+@media (min-width: 1200px) {
+    .about-text {
+        padding: 40px;
+    }
+}
