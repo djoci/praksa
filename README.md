@@ -28,9 +28,4 @@ npm run lint
 ### Customize configuration
 See [Configuration Reference](https://cli.vuejs.org/config/).
 
-Mozda treba za router
 
-To get started:
-
-  cd router-project
-  npm run dev
