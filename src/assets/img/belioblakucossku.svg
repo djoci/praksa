@@ -1,0 +1,69 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<svg
+   xmlns:dc="http://purl.org/dc/elements/1.1/"
+   xmlns:cc="http://creativecommons.org/ns#"
+   xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#"
+   xmlns:svg="http://www.w3.org/2000/svg"
+   xmlns="http://www.w3.org/2000/svg"
+   xmlns:sodipodi="http://sodipodi.sourceforge.net/DTD/sodipodi-0.dtd"
+   xmlns:inkscape="http://www.inkscape.org/namespaces/inkscape"
+   width="910.90625"
+   height="572.09961"
+   viewBox="0 0 910.90627 572.09961"
+   id="svg2"
+   version="1.1"
+   inkscape:version="0.91 r13725"
+   sodipodi:docname="belioblakucossku.svg">
+  <metadata
+     id="metadata9">
+    <rdf:RDF>
+      <cc:Work
+         rdf:about="">
+        <dc:format>image/svg+xml</dc:format>
+        <dc:type
+           rdf:resource="http://purl.org/dc/dcmitype/StillImage" />
+        <dc:title></dc:title>
+      </cc:Work>
+    </rdf:RDF>
+  </metadata>
+  <defs
+     id="defs7" />
+  <sodipodi:namedview
+     pagecolor="#ffffff"
+     bordercolor="#666666"
+     borderopacity="1"
+     objecttolerance="10"
+     gridtolerance="10"
+     guidetolerance="10"
+     inkscape:pageopacity="0"
+     inkscape:pageshadow="2"
+     inkscape:window-width="1366"
+     inkscape:window-height="742"
+     id="namedview5"
+     showgrid="false"
+     fit-margin-top="0"
+     fit-margin-left="0"
+     fit-margin-right="0"
+     fit-margin-bottom="0"
+     inkscape:zoom="0.70710678"
+     inkscape:cx="666.63992"
+     inkscape:cy="229.19166"
+     inkscape:window-x="0"
+     inkscape:window-y="0"
+     inkscape:window-maximized="1"
+     inkscape:current-layer="svg2" />
+  <g
+     id="g4160">
+    <path
+       sodipodi:nodetypes="csssccc"
+       style="opacity:0.4;fill:#ffffff;fill-opacity:1"
+       id="Path_48-3"
+       d="M 910.90623,0 C 821.98303,34.01813 719.39223,123.38727 657.01563,202.8086 548.85666,340.52259 523.99036,388.00925 348.56836,349.03125 173.14636,310.05325 56.44085,406.29755 10.71875,524.45313 8.95444,529.01248 0.23706,571.54678 0,572.09961 l 910.90623,0 z"
+       inkscape:connector-curvature="0" />
+    <path
+       style="fill:#ffffff;fill-opacity:1"
+       inkscape:connector-curvature="0"
+       id="Path_48"
+       d="m 910.90623,46 c -88.9233,34.01814 -175.5141,123.38727 -237.8907,202.8086 -108.15894,137.71399 -133.02521,185.20065 -308.44721,146.22265 -175.422,-38.978 -289.12161,58.47388 -337.84961,175.42188 -0.23306,0.55935 -0.48169,1.09365 -0.71875,1.64648 l 884.90627,0 0,-526.09961 z" />
+  </g>
+</svg>

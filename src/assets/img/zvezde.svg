@@ -1,0 +1,571 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<svg
+   xmlns:dc="http://purl.org/dc/elements/1.1/"
+   xmlns:cc="http://creativecommons.org/ns#"
+   xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#"
+   xmlns:svg="http://www.w3.org/2000/svg"
+   xmlns="http://www.w3.org/2000/svg"
+   xmlns:sodipodi="http://sodipodi.sourceforge.net/DTD/sodipodi-0.dtd"
+   xmlns:inkscape="http://www.inkscape.org/namespaces/inkscape"
+   width="549.95599"
+   height="157.50198"
+   viewBox="0 0 549.95599 157.50198"
+   version="1.1"
+   id="svg271"
+   sodipodi:docname="zvezde.svg"
+   inkscape:version="0.92.3 (2405546, 2018-03-11)">
+  <metadata
+     id="metadata275">
+    <rdf:RDF>
+      <cc:Work
+         rdf:about="">
+        <dc:format>image/svg+xml</dc:format>
+        <dc:type
+           rdf:resource="http://purl.org/dc/dcmitype/StillImage" />
+        <dc:title></dc:title>
+      </cc:Work>
+    </rdf:RDF>
+  </metadata>
+  <sodipodi:namedview
+     pagecolor="#ffffff"
+     bordercolor="#666666"
+     borderopacity="1"
+     objecttolerance="10"
+     gridtolerance="10"
+     guidetolerance="10"
+     inkscape:pageopacity="0"
+     inkscape:pageshadow="2"
+     inkscape:window-width="1680"
+     inkscape:window-height="995"
+     id="namedview273"
+     showgrid="false"
+     fit-margin-top="0"
+     fit-margin-left="0"
+     fit-margin-right="0"
+     fit-margin-bottom="0"
+     inkscape:zoom="0.1515625"
+     inkscape:cx="-1278.9272"
+     inkscape:cy="-220.75201"
+     inkscape:window-x="0"
+     inkscape:window-y="0"
+     inkscape:window-maximized="1"
+     inkscape:current-layer="svg271" />
+  <defs
+     id="defs163">
+    <clipPath
+       id="clip-path">
+      <rect
+         id="Rectangle_475"
+         data-name="Rectangle 475"
+         width="1157.822"
+         height="249.47301"
+         x="0"
+         y="0"
+         style="fill:none" />
+    </clipPath>
+    <filter
+       id="Rectangle_2"
+       x="391"
+       y="724"
+       width="266"
+       height="72"
+       filterUnits="userSpaceOnUse">
+      <feOffset
+         dy="3"
+         input="SourceAlpha"
+         id="feOffset4" />
+      <feGaussianBlur
+         stdDeviation="3"
+         result="blur"
+         id="feGaussianBlur6" />
+      <feFlood
+         flood-opacity="0.161"
+         id="feFlood8" />
+      <feComposite
+         operator="in"
+         in2="blur"
+         id="feComposite10"
+         result="result1" />
+      <feComposite
+         in="SourceGraphic"
+         in2="result1"
+         id="feComposite12" />
+    </filter>
+    <filter
+       id="Path_187"
+       x="1195.7371"
+       y="584.06097"
+       width="112.621"
+       height="202.09801"
+       filterUnits="userSpaceOnUse">
+      <feOffset
+         dy="3"
+         input="SourceAlpha"
+         id="feOffset15" />
+      <feGaussianBlur
+         stdDeviation="3"
+         result="blur-2"
+         id="feGaussianBlur17" />
+      <feFlood
+         flood-opacity="0.161"
+         id="feFlood19" />
+      <feComposite
+         operator="in"
+         in2="blur-2"
+         id="feComposite21"
+         result="result1" />
+      <feComposite
+         in="SourceGraphic"
+         in2="result1"
+         id="feComposite23" />
+    </filter>
+    <filter
+       id="Path_188"
+       x="1415.6639"
+       y="584.06097"
+       width="112.618"
+       height="202.09801"
+       filterUnits="userSpaceOnUse">
+      <feOffset
+         dy="3"
+         input="SourceAlpha"
+         id="feOffset26" />
+      <feGaussianBlur
+         stdDeviation="3"
+         result="blur-3"
+         id="feGaussianBlur28" />
+      <feFlood
+         flood-opacity="0.161"
+         id="feFlood30" />
+      <feComposite
+         operator="in"
+         in2="blur-3"
+         id="feComposite32"
+         result="result1" />
+      <feComposite
+         in="SourceGraphic"
+         in2="result1"
+         id="feComposite34" />
+    </filter>
+    <filter
+       id="Path_190"
+       x="1254.959"
+       y="343.97"
+       width="213.235"
+       height="371.58801"
+       filterUnits="userSpaceOnUse">
+      <feOffset
+         dy="3"
+         input="SourceAlpha"
+         id="feOffset37" />
+      <feGaussianBlur
+         stdDeviation="3"
+         result="blur-4"
+         id="feGaussianBlur39" />
+      <feFlood
+         flood-opacity="0.161"
+         id="feFlood41" />
+      <feComposite
+         operator="in"
+         in2="blur-4"
+         id="feComposite43"
+         result="result1" />
+      <feComposite
+         in="SourceGraphic"
+         in2="result1"
+         id="feComposite45" />
+    </filter>
+    <filter
+       id="Path_191"
+       x="1282.467"
+       y="238.108"
+       width="162.80701"
+       height="123.862"
+       filterUnits="userSpaceOnUse">
+      <feOffset
+         dy="3"
+         input="SourceAlpha"
+         id="feOffset48" />
+      <feGaussianBlur
+         stdDeviation="3"
+         result="blur-5"
+         id="feGaussianBlur50" />
+      <feFlood
+         flood-opacity="0.161"
+         id="feFlood52" />
+      <feComposite
+         operator="in"
+         in2="blur-5"
+         id="feComposite54"
+         result="result1" />
+      <feComposite
+         in="SourceGraphic"
+         in2="result1"
+         id="feComposite56" />
+    </filter>
+    <filter
+       id="Path_192"
+       x="1330.694"
+       y="542.46899"
+       width="59.678001"
+       height="238.92"
+       filterUnits="userSpaceOnUse">
+      <feOffset
+         dy="3"
+         input="SourceAlpha"
+         id="feOffset59" />
+      <feGaussianBlur
+         stdDeviation="3"
+         result="blur-6"
+         id="feGaussianBlur61" />
+      <feFlood
+         flood-opacity="0.161"
+         id="feFlood63" />
+      <feComposite
+         operator="in"
+         in2="blur-6"
+         id="feComposite65"
+         result="result1" />
+      <feComposite
+         in="SourceGraphic"
+         in2="result1"
+         id="feComposite67" />
+    </filter>
+    <clipPath
+       id="clip-path-2">
+      <rect
+         id="Rectangle_56"
+         data-name="Rectangle 56"
+         width="1058.868"
+         height="204.938"
+         x="0"
+         y="0"
+         style="fill:none" />
+    </clipPath>
+    <filter
+       id="Path_119"
+       x="1569.838"
+       y="161.746"
+       width="61.777"
+       height="61.776001"
+       filterUnits="userSpaceOnUse">
+      <feOffset
+         dy="3"
+         input="SourceAlpha"
+         id="feOffset72" />
+      <feGaussianBlur
+         stdDeviation="3"
+         result="blur-7"
+         id="feGaussianBlur74" />
+      <feFlood
+         flood-opacity="0.161"
+         id="feFlood76" />
+      <feComposite
+         operator="in"
+         in2="blur-7"
+         id="feComposite78"
+         result="result1" />
+      <feComposite
+         in="SourceGraphic"
+         in2="result1"
+         id="feComposite80" />
+    </filter>
+    <filter
+       id="Path_210"
+       x="1410.3101"
+       y="190.218"
+       width="44.833"
+       height="44.833"
+       filterUnits="userSpaceOnUse">
+      <feOffset
+         dy="3"
+         input="SourceAlpha"
+         id="feOffset83" />
+      <feGaussianBlur
+         stdDeviation="3"
+         result="blur-8"
+         id="feGaussianBlur85" />
+      <feFlood
+         flood-opacity="0.161"
+         id="feFlood87" />
+      <feComposite
+         operator="in"
+         in2="blur-8"
+         id="feComposite89"
+         result="result1" />
+      <feComposite
+         in="SourceGraphic"
+         in2="result1"
+         id="feComposite91" />
+    </filter>
+    <filter
+       id="Path_120"
+       x="1607.686"
+       y="289.39099"
+       width="29.857"
+       height="29.857"
+       filterUnits="userSpaceOnUse">
+      <feOffset
+         dy="3"
+         input="SourceAlpha"
+         id="feOffset94" />
+      <feGaussianBlur
+         stdDeviation="3"
+         result="blur-9"
+         id="feGaussianBlur96" />
+      <feFlood
+         flood-opacity="0.161"
+         id="feFlood98" />
+      <feComposite
+         operator="in"
+         in2="blur-9"
+         id="feComposite100"
+         result="result1" />
+      <feComposite
+         in="SourceGraphic"
+         in2="result1"
+         id="feComposite102" />
+    </filter>
+    <filter
+       id="Path_121"
+       x="1534.618"
+       y="209.258"
+       width="42.202999"
+       height="42.202"
+       filterUnits="userSpaceOnUse">
+      <feOffset
+         dy="3"
+         input="SourceAlpha"
+         id="feOffset105" />
+      <feGaussianBlur
+         stdDeviation="3"
+         result="blur-10"
+         id="feGaussianBlur107" />
+      <feFlood
+         flood-opacity="0.161"
+         id="feFlood109" />
+      <feComposite
+         operator="in"
+         in2="blur-10"
+         id="feComposite111"
+         result="result1" />
+      <feComposite
+         in="SourceGraphic"
+         in2="result1"
+         id="feComposite113" />
+    </filter>
+    <filter
+       id="Path_122"
+       x="1128.79"
+       y="175.673"
+       width="48.755001"
+       height="48.756001"
+       filterUnits="userSpaceOnUse">
+      <feOffset
+         dy="3"
+         input="SourceAlpha"
+         id="feOffset116" />
+      <feGaussianBlur
+         stdDeviation="3"
+         result="blur-11"
+         id="feGaussianBlur118" />
+      <feFlood
+         flood-opacity="0.161"
+         id="feFlood120" />
+      <feComposite
+         operator="in"
+         in2="blur-11"
+         id="feComposite122"
+         result="result1" />
+      <feComposite
+         in="SourceGraphic"
+         in2="result1"
+         id="feComposite124" />
+    </filter>
+    <filter
+       id="Path_123"
+       x="1194.526"
+       y="231.093"
+       width="25.469"
+       height="25.469"
+       filterUnits="userSpaceOnUse">
+      <feOffset
+         dy="3"
+         input="SourceAlpha"
+         id="feOffset127" />
+      <feGaussianBlur
+         stdDeviation="3"
+         result="blur-12"
+         id="feGaussianBlur129" />
+      <feFlood
+         flood-opacity="0.161"
+         id="feFlood131" />
+      <feComposite
+         operator="in"
+         in2="blur-12"
+         id="feComposite133"
+         result="result1" />
+      <feComposite
+         in="SourceGraphic"
+         in2="result1"
+         id="feComposite135" />
+    </filter>
+    <filter
+       id="Path_124"
+       x="1087.587"
+       y="215.67101"
+       width="63.780998"
+       height="63.780998"
+       filterUnits="userSpaceOnUse">
+      <feOffset
+         dy="3"
+         input="SourceAlpha"
+         id="feOffset138" />
+      <feGaussianBlur
+         stdDeviation="3"
+         result="blur-13"
+         id="feGaussianBlur140" />
+      <feFlood
+         flood-opacity="0.161"
+         id="feFlood142" />
+      <feComposite
+         operator="in"
+         in2="blur-13"
+         id="feComposite144"
+         result="result1" />
+      <feComposite
+         in="SourceGraphic"
+         in2="result1"
+         id="feComposite146" />
+    </filter>
+    <filter
+       id="Path_128"
+       x="1297.798"
+       y="190.713"
+       width="41.183998"
+       height="41.185001"
+       filterUnits="userSpaceOnUse">
+      <feOffset
+         dy="3"
+         input="SourceAlpha"
+         id="feOffset149" />
+      <feGaussianBlur
+         stdDeviation="3"
+         result="blur-14"
+         id="feGaussianBlur151" />
+      <feFlood
+         flood-opacity="0.161"
+         id="feFlood153" />
+      <feComposite
+         operator="in"
+         in2="blur-14"
+         id="feComposite155"
+         result="result1" />
+      <feComposite
+         in="SourceGraphic"
+         in2="result1"
+         id="feComposite157" />
+    </filter>
+    <clipPath
+       id="clip-Registration_Success">
+      <rect
+         width="1920"
+         height="1080"
+         id="rect160"
+         x="0"
+         y="0" />
+    </clipPath>
+  </defs>
+  <g
+     id="g1268"
+     transform="translate(-1087.587,-161.746)">
+    <g
+       style="filter:url(#Path_119)"
+       id="g239">
+      <path
+         style="fill:#ffffff"
+         inkscape:connector-curvature="0"
+         transform="translate(614.18,69.87)"
+         d="m 986.542,97.876 7.739,14.149 14.15,7.739 -14.15,7.739 -7.739,14.15 -7.742,-14.153 -14.15,-7.739 14.15,-7.739 z"
+         data-name="Path 119"
+         id="Path_119-2" />
+    </g>
+    <g
+       style="filter:url(#Path_210)"
+       id="g242">
+      <path
+         style="fill:#ffffff"
+         inkscape:connector-curvature="0"
+         transform="translate(454.66,98.34)"
+         d="m 978.07,97.876 4.744,8.673 8.673,4.743 -8.673,4.743 -4.744,8.673 -4.743,-8.673 -8.673,-4.743 8.673,-4.743 z"
+         data-name="Path 210"
+         id="Path_210-2" />
+    </g>
+    <g
+       style="filter:url(#Path_120)"
+       id="g245">
+      <path
+         style="fill:#ffffff"
+         inkscape:connector-curvature="0"
+         transform="translate(639.45,155.07)"
+         d="m 983.167,140.318 2.1,3.833 3.833,2.1 -3.833,2.1 -2.1,3.833 -2.1,-3.833 -3.832,-2.1 3.832,-2.1 z"
+         data-name="Path 120"
+         id="Path_120-2" />
+    </g>
+    <g
+       style="filter:url(#Path_121)"
+       id="g248">
+      <path
+         style="fill:#ffffff"
+         inkscape:connector-curvature="0"
+         transform="translate(590.67,101.58)"
+         d="m 965.044,113.674 4.279,7.823 7.823,4.278 -7.823,4.279 -4.279,7.823 -4.278,-7.823 -7.823,-4.279 7.823,-4.278 z"
+         data-name="Path 121"
+         id="Path_121-2" />
+    </g>
+    <g
+       style="filter:url(#Path_122)"
+       id="g251">
+      <path
+         style="fill:#ffffff"
+         inkscape:connector-curvature="0"
+         transform="translate(345.27,88.91)"
+         d="m 807.9,92.763 5.437,9.941 9.941,5.437 -9.941,5.437 -5.437,9.941 -5.437,-9.941 -9.941,-5.437 9.941,-5.437 z"
+         data-name="Path 122"
+         id="Path_122-2" />
+    </g>
+    <g
+       style="filter:url(#Path_123)"
+       id="g254">
+      <path
+         style="fill:#ffffff"
+         inkscape:connector-curvature="0"
+         transform="translate(389.15,125.9)"
+         d="m 818.112,111.19 1.321,2.414 2.414,1.321 -2.414,1.32 -1.321,2.414 -1.32,-2.414 -2.415,-1.32 2.415,-1.321 z"
+         data-name="Path 123"
+         id="Path_123-2" />
+    </g>
+    <g
+       style="filter:url(#Path_124)"
+       id="g257">
+      <path
+         style="fill:#ffffff"
+         inkscape:connector-curvature="0"
+         transform="translate(317.77,115.61)"
+         d="m 801.711,106.062 8.093,14.8 14.8,8.093 -14.8,8.093 -8.093,14.8 -8.093,-14.8 -14.8,-8.093 14.8,-8.093 z"
+         data-name="Path 124"
+         id="Path_124-2" />
+    </g>
+    <g
+       style="filter:url(#Path_128)"
+       id="g260">
+      <path
+         style="fill:#ffffff"
+         inkscape:connector-curvature="0"
+         transform="translate(458.08,98.95)"
+         d="m 860.308,97.764 4.1,7.494 7.494,4.1 -7.494,4.1 -4.1,7.494 -4.1,-7.494 -7.493,-4.1 7.493,-4.1 z"
+         data-name="Path 128"
+         id="Path_128-2" />
+    </g>
+  </g>
+</svg>
