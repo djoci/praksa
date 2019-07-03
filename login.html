@@ -1,0 +1,81 @@
+<!doctype html>
+<html lang="en">
+
+<head>
+    <title>DEMO | Sign In</title>
+    <!-- Required meta tags -->
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+    <link href="https://fonts.googleapis.com/css?family=Poppins:400,700&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.8.2/css/all.css"
+        integrity="sha384-oS3vJWv+0UjzBfQzYUhtDYW+Pj2yciDJxpsK1OYPAYjqT085Qq/1cq5FLXAZQ7Ay" crossorigin="anonymous">
+    <!-- Bootstrap CSS -->
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/css/bootstrap.min.css"
+        integrity="sha384-ggOyR0iXCbMQv3Xipma34MD+dH/1fQ784/j6cY/iJTQUOhcWr7x9JvoRxT2MZw1T" crossorigin="anonymous">
+    <link rel="stylesheet" href="css/main.css">
+    <style>
+            body {
+            background-color: #202646;
+            background-image: url("img/belioblakucossku.svg");
+            background-repeat: no-repeat;
+            background-position: 100% 100%;
+            background-size: 50% auto;
+            min-height: 100vh;
+            color: #fff;
+        }
+        .cover-container {
+            max-width: 42em;
+            margin-top: 20px;
+        }
+        .form-control::placeholder , main span a , main span a:hover{
+            color: #29E4B7;
+        }
+
+        .btn-primary {
+            width: 240px;
+            font-size: 20px;
+            font-weight: 700;
+            margin-bottom: 20px;
+        }
+        .form-control,
+        .btn-primary:hover,
+        .btn-primary,
+        .btn-primary:focus,
+        .btn-primary:active {
+            border-radius: 38px;
+        }
+    </style>
+</head>
+
+<body>
+    <div class="cover-container d-flex w-100 h-100 p-3 mx-auto flex-column">
+        <main role="main" class="inner cover text-center">
+            <h1 class="cover-heading"><a class="navbar-brand" href="index.html"><img src="img/demo.svg" alt=""></a></h1>
+            <form id="contactForm" name="logIn">
+                <div class="form-group">
+                    <input class="form-control text-center" id="name" type="text" placeholder="Username" required="required"
+                        data-validation-required-message="Please enter your name." aria-invalid="false">
+                </div>
+                <div class="form-group">
+                    <input class="form-control text-center" id="email" type="password" placeholder="Password"
+                        required="required" data-validation-required-message="Please enter your email address.">
+                </div>
+                <button id="loginButton" class="btn btn-primary btn-xl" type="submit">SIGN IN</button>
+            </form>
+            <p>Forgot password? Or you you don't have an account <span><a href="#">Click Here!</a></span></p>
+        </main>
+    </div>
+    <!-- Optional JavaScript -->
+    <!-- jQuery first, then Popper.js, then Bootstrap JS -->
+    <script src="https://code.jquery.com/jquery-3.3.1.slim.min.js"
+        integrity="sha384-q8i/X+965DzO0rT7abK41JStQIAqVgRVzpbzo5smXKp4YfRvH+8abtTE1Pi6jizo"
+        crossorigin="anonymous"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.14.7/umd/popper.min.js"
+        integrity="sha384-UO2eT0CpHqdSJQ6hJty5KVphtPhzWj9WO1clHTMGa3JDZwrnQq4sF86dIHNDz0W1"
+        crossorigin="anonymous"></script>
+    <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/js/bootstrap.min.js"
+        integrity="sha384-JjSmVgyd0p3pXB1rRibZUAYoIIy6OrQ6VrjIEaFf/nJGzIxFDsf4x0xIM+B07jRM"
+        crossorigin="anonymous"></script>
+</body>
+
+</html>
