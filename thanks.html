@@ -1,0 +1,185 @@
+<!doctype html>
+<html lang="en">
+
+<head>
+    <title>DEMO | Thanks for Using Our Service</title>
+    <!-- Required meta tags -->
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+    <link href="https://fonts.googleapis.com/css?family=Poppins:400,700&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.8.2/css/all.css"
+        integrity="sha384-oS3vJWv+0UjzBfQzYUhtDYW+Pj2yciDJxpsK1OYPAYjqT085Qq/1cq5FLXAZQ7Ay" crossorigin="anonymous">
+    <!-- Bootstrap CSS -->
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/css/bootstrap.min.css"
+        integrity="sha384-ggOyR0iXCbMQv3Xipma34MD+dH/1fQ784/j6cY/iJTQUOhcWr7x9JvoRxT2MZw1T" crossorigin="anonymous">
+    <link rel="stylesheet" href="css/main.css">
+    <style>
+        html,
+        body {
+            height: 100%;
+            min-height: 100%;
+        }
+
+        body {
+            background: url(img/oblaci.svg), url(img/raketa.svg), url(img/oblakbeli.png), url(img/zvezde.svg);
+            background-size: 98% auto, auto 75%, 50% auto, 35% auto;
+            background-repeat: no-repeat;
+            background-position: 0% 10%, 79% 100%, 99% 100%, 85% 15%;
+            background-color: #202646;
+            animation-name: oblak;
+            animation-duration: 4s;
+            animation-timing-function: linear;
+            animation-direction: alternate;
+            animation-iteration-count: infinite;
+        }
+
+        @keyframes oblak {
+            from {
+                background-position: 0% 10%, 79% 90%, 99% 100%, 85% 15%;
+            }
+
+            to {
+                background-position: 30% 10%, 79% 85%, 99% 102%, 85% 15%;
+            }
+        }
+
+        h1 {
+            word-spacing: 10px;
+        }
+
+        p {
+            margin-bottom: 20px;
+        }
+
+        .cover-container {
+            max-width: 42em;
+            padding-top: 120px;
+        }
+
+        .btn-primary {
+            width: 240px;
+            font-size: 20px;
+            font-weight: 700;
+        }
+
+        .btn-primary:hover,
+        .btn-primary,
+        .btn-primary:focus,
+        .btn-primary:active {
+            border-radius: 38px;
+        }
+
+        body,
+        .cover-heading {
+            color: #fff;
+        }
+
+        @media (max-width: 575.98px) {
+            .cover-container {
+                padding-top: 60px;
+            }
+
+            body {
+                background: url(img/oblaci.svg), url(img/zvezde.svg);
+                background-size: 98% auto, 80% auto;
+                background-position: 0% 10%, 10% 15%;
+                background-repeat: no-repeat;
+                background-color: #202646;
+            }
+
+            @keyframes oblak {
+                from {
+                    background-position: 0% 10, 10% 15%;
+                }
+
+                to {
+                    background-position: 30% 10%, 10% 15%;
+                }
+            }
+        }
+
+        @media (min-width: 576px) and (max-width: 767.98px) {
+            main {
+                background-color: rgba(0, 0, 0, 0.3);
+                padding: 20px;
+            }
+
+            .btn-primary {
+                width: 180px;
+                font-size: 18px;
+            }
+
+            h1 {
+                font-size: 30px;
+            }
+
+            body {
+                background-size: 98% auto, auto 75%, 60% auto, 35% auto;
+            }
+        }
+
+        @media (min-width: 768px) and (max-width: 991.98px) {
+            h1 {
+                font-size: 30px;
+            }
+
+            main p {
+                width: 80%;
+            }
+
+            body {
+                background-size: 98% auto, auto 75%, 50% auto, 35% auto;
+                background-position: 0% 10%, 79% 95%, 99% 100%, 85% 15%;
+            }
+
+            @keyframes oblak {
+                from {
+                    background-position: 0% 10%, 79% 100%, 99% 100%, 85% 15%;
+                }
+
+                to {
+                    background-position: 30% 10%, 79% 99%, 99% 102%, 85% 15%;
+                }
+            }
+        }
+    </style>
+</head>
+
+<body>
+
+    <div class="container-fluid">
+        <nav class="navbar navbar-dark bg-dark">
+            <div class="container">
+                <a class="navbar-brand" href="index.html"><img src="img/demo.svg" alt=""></a>
+            </div>
+        </nav>
+    </div>
+
+
+    <div class="container">
+        <div class="cover-container">
+            <main>
+                <h1 class="cover-heading">Thanks for Using Our Service! </h1>
+                <p>Lorem ipsum dolor sit amet, consectet adop adipisicing elit, sed do eiusmod temporara.
+                    Another
+                    projects managed with a easy design is what we stand for.incididunt ugt labore. </p>
+                <a href="#" class="btn btn-primary btn-xl">LET'S START</a>
+            </main>
+        </div>
+    </div>
+
+
+    <!-- Optional JavaScript -->
+    <!-- jQuery first, then Popper.js, then Bootstrap JS -->
+    <script src="https://code.jquery.com/jquery-3.3.1.slim.min.js"
+        integrity="sha384-q8i/X+965DzO0rT7abK41JStQIAqVgRVzpbzo5smXKp4YfRvH+8abtTE1Pi6jizo"
+        crossorigin="anonymous"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.14.7/umd/popper.min.js"
+        integrity="sha384-UO2eT0CpHqdSJQ6hJty5KVphtPhzWj9WO1clHTMGa3JDZwrnQq4sF86dIHNDz0W1"
+        crossorigin="anonymous"></script>
+    <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/js/bootstrap.min.js"
+        integrity="sha384-JjSmVgyd0p3pXB1rRibZUAYoIIy6OrQ6VrjIEaFf/nJGzIxFDsf4x0xIM+B07jRM"
+        crossorigin="anonymous"></script>
+</body>
+
+</html>
